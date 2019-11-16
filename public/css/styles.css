@@ -55,3 +55,43 @@ main p {
 footer {
     text-align: center;
 }
+
+/*-----------------------Compose*---------------------*/
+form {
+    margin-top: 2vh;
+}
+
+form input {
+    width: 90vw;
+    height: 6vh;
+    font-size: 1.4em;
+}
+
+form textarea {
+    width: 90vw;
+    height: 20vh;
+    font-size: 1.3em;
+}
+
+form button {
+    width: 7vw;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: rgb(62, 62, 226);
+    color: #fff;
+    border: none;
+    font-size: 0.9em;
+    outline: none;
+}
+
+form input, form textarea {
+    border: 2px solid rgb(230, 221, 221);
+    border-radius: 5px;
+    margin: 1vh 0 1vh 0;
+    outline: none;
+    padding: 5px;
+}
+
+form label {
+    font-size: 1.2em;
+}

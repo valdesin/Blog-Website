@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const port = 3000;
+const posts = [];
 
 const app = express();
 
@@ -27,6 +28,20 @@ app.get("/contact", (req, res) => {
     res.render("contact", {contact: contactContent});
 });
 
+app.get("/compose", (req, res) => {
+    res.render("compose");
+});
+
+app.post("/compose", (req, res) => {
+    const post = {
+        postTitle: req.body.myPostTitle,
+        postText: req.body.myPostText,
+    };
+    posts.push(post);
+    
+    console.log(posts);
+    res.redirect("/")
+});
 
 app.listen(port, () => {
     console.log("Serever started on port 3000.")
