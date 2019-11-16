@@ -1,0 +1,27 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdesin/Blog-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdesin/Blog-Website/issues"
+  },
+  "homepage": "https://github.com/valdesin/Blog-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
