@@ -1,13 +1,57 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 body {
     display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 20vh 70vh 10vh;
 }
 
+/*----------Header----------*/
 header {
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: rgb(243, 235, 235);
+}
+
+header h1 {
+    padding: 7vh 0 0 5vw;
+}
+
+nav {
+    text-align: end;
+    padding: 10vh 5vw 0 0;
+}
+
+nav p {
+    display: inline;
+    margin-left: 1vw;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(14, 12, 12);
+}
+
+/*----------Main----------*/
+main {
+    padding: 7vh 5vw 3vh 5vw;
+}
+
+main h1 {
+    font-weight: 400;
+}
+
+main p {
+    padding: 1vh 0 0 0.5vw;
+}
+
+/*----------Footer----------*/
+footer {
+    text-align: center;
 }
